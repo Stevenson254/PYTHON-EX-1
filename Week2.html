@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+  <html>
+     <head>
+         <title>HTML Lists, Images, Tables & Forms</title>
+     </head>
+     <body>
+        <h2>Ordered Lists</h2>
+        <ol type="I" start="5">
+            <li>Kenya</li>
+            <li>South Africa</li>
+             <li>Nigeria</li>
+        </ol>
+        <h2>Un-Ordered Lists</h2>
+        <ul type="circle">
+            <li>Poland</li>
+            <li>Ghana</li>
+            <li>Spain</li>
+        </ul>
+        <h2>Definition Lists</h2>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Hyper Text Markup Language</dd>
+
+        </dl>
+        <h2>Images</h2>
+        <h3>Intenal Images</h3>
+        <img src="photo_2024-03-13_08-27-29.jpg" alt="My Image" Height="400" width="350">
+        <h3>External Images</h3>
+        <img src="https://images.pexels.com/photos/39584/censorship-limitations-freedom-of-expression-restricted-39584.jpeg?auto=compress&cs=tinysrgb&w=600" alt="The TechShield Chronicles" height="400" width="350">
+        <h2>HTML Tables</h2>
+         <table border="1">
+            <thead>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Age</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Steven</td>
+                <td>24</td>
+                <td>Kenya</td>
+            </tr>
+            <tr>
+                <td>Patrick</td>
+                <td>24</td>
+                <td>South Africa</td>
+            </tr>
+            <tr>
+                <td>Kevinn</td>
+                <td>24</td>
+                <td>Kenya</td>
+            </tr>
+            <tr>
+                <td>brayo</td>
+                <td>22</td>
+                <td>Japan</td>
+            </tr>
+            <tr>
+                <td>Mark</td>
+                <td>24</td>
+                <td>Naija</td>
+            </tr>
+            <tr>
+                <td>Jin Che</td>
+                <td>19</td>
+                <td>Sudan</td>
+            </tr>
+        </tbody>
+            <tfoot></tfoot>
+         </table>
+         <h2>HTML Forms</h2>
+         <form action="" method="">
+            <label for="full_name">Full Name</label>
+            <input type="text" id="full_name" name="full_name" required placeholder="John Doe">
+            <br><br>
+            <label for="Email">Email</label>
+            <input type="email"  id="Email" name="Email" placeholder="odhiambosteven761@gmail.com">
+            <br><br>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+            <br><br>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" value="female"> female
+            <input type="radio" name="gender" value="male"> male
+            <br><br>
+            <label for="hobby">Hobbies</label>
+            <input type="checkbox" name="hobby" value="travel"> Travel
+            <input type="checkbox" name="hobby" value="swimming"> Swimming
+            <br><br>
+            <label>Country</label>
+            <select name="country" id="contry" multiple>
+                <option >--Select Country</option>
+                <option value="Kenya">Kenya</option>
+                <option value="Japan">Japan</option>
+                <option value="South">south</option>
+                <option value="Nigeria">Nigeria</option>
+            </select>
+            <button type="submit">Submit</button>
+            <input type="reset" value="cancel/reset">
+         </form>
+     </body>
+  </html>
